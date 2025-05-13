@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\bin\Debug\net9.0\Day1_LogicExercise.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\bin\Debug\net9.0\Day1_LogicExercise.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\bin\Debug\net9.0\Day1_LogicExercise.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\bin\Debug\net9.0\Day1_LogicExercise.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\bin\Debug\net9.0\Day1_LogicExercise.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\obj\Debug\net9.0\Day1_LogicExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\obj\Debug\net9.0\Day1_LogicExercise.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\obj\Debug\net9.0\Day1_LogicExercise.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\obj\Debug\net9.0\Day1_LogicExercise.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\obj\Debug\net9.0\Day1_LogicExercise.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\obj\Debug\net9.0\Day1_LogicExercise.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\obj\Debug\net9.0\refint\Day1_LogicExercise.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\obj\Debug\net9.0\Day1_LogicExercise.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\obj\Debug\net9.0\Day1_LogicExercise.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day1_LogicExercise\obj\Debug\net9.0\ref\Day1_LogicExercise.dll
