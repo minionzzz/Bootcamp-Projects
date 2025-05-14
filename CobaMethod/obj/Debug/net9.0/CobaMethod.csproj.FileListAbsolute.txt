@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\bin\Debug\net9.0\CobaMethod.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\bin\Debug\net9.0\CobaMethod.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\bin\Debug\net9.0\CobaMethod.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\bin\Debug\net9.0\CobaMethod.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\bin\Debug\net9.0\CobaMethod.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\obj\Debug\net9.0\CobaMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\obj\Debug\net9.0\CobaMethod.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\obj\Debug\net9.0\CobaMethod.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\obj\Debug\net9.0\CobaMethod.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\obj\Debug\net9.0\CobaMethod.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\obj\Debug\net9.0\CobaMethod.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\obj\Debug\net9.0\refint\CobaMethod.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\obj\Debug\net9.0\CobaMethod.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\obj\Debug\net9.0\CobaMethod.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaMethod\obj\Debug\net9.0\ref\CobaMethod.dll

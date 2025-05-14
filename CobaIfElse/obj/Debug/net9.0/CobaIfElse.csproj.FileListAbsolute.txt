@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\bin\Debug\net9.0\CobaIfElse.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\bin\Debug\net9.0\CobaIfElse.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\bin\Debug\net9.0\CobaIfElse.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\bin\Debug\net9.0\CobaIfElse.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\bin\Debug\net9.0\CobaIfElse.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\obj\Debug\net9.0\CobaIfElse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\obj\Debug\net9.0\CobaIfElse.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\obj\Debug\net9.0\CobaIfElse.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\obj\Debug\net9.0\CobaIfElse.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\obj\Debug\net9.0\CobaIfElse.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\obj\Debug\net9.0\CobaIfElse.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\obj\Debug\net9.0\refint\CobaIfElse.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\obj\Debug\net9.0\CobaIfElse.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\obj\Debug\net9.0\CobaIfElse.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaIfElse\obj\Debug\net9.0\ref\CobaIfElse.dll

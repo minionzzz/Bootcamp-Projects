@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\obj\Debug\net9.0\CobaClassObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\obj\Debug\net9.0\CobaClassObject.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\obj\Debug\net9.0\CobaClassObject.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\obj\Debug\net9.0\CobaClassObject.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\obj\Debug\net9.0\CobaClassObject.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\bin\Debug\net9.0\CobaClassObject.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\bin\Debug\net9.0\CobaClassObject.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\bin\Debug\net9.0\CobaClassObject.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\bin\Debug\net9.0\CobaClassObject.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\bin\Debug\net9.0\CobaClassObject.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\obj\Debug\net9.0\CobaClassObject.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\obj\Debug\net9.0\refint\CobaClassObject.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\obj\Debug\net9.0\CobaClassObject.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\obj\Debug\net9.0\CobaClassObject.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\CobaClassObject\obj\Debug\net9.0\ref\CobaClassObject.dll
