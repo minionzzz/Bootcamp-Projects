@@ -1,5 +1,5 @@
 ﻿using System;
-// using System.Collections.Generic;
+using System.Collections.Generic;
 
 class Mahasiswa{
     public String Nama{ get; set; }
@@ -32,7 +32,7 @@ class Program{
             daftarMahasiswa.Add(mhs);
           }
 
-        Console.WriteLine("\t===LIST MAHASISWA ===");
+        Console.WriteLine("\t === LIST MAHASISWA ===");
           foreach (Mahasiswa i in daftarMahasiswa)
           {
             i.TampilkanData();
