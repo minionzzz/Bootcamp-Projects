@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CobaListMahasiswa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46d3134a9983aaa75da9da44e5f6ee571f823203")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84d94e92c22a330d6f3b329dee9d7375079cc45a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CobaListMahasiswa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CobaListMahasiswa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

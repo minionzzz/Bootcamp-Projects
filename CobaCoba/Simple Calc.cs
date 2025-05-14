@@ -45,9 +45,3 @@ while(lanjut){
         break;
     }
 }
-        
-    
-
-
-
-

@@ -11,6 +11,7 @@ class Mahasiswa{
     }
 }
 
+
 class Program{
     public static void Main(){
           Console.Write("Input Jumlah Mahasiswa: ");
