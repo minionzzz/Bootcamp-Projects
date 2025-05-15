@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\bin\Debug\net9.0\Day3_Inheritance.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\bin\Debug\net9.0\Day3_Inheritance.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\bin\Debug\net9.0\Day3_Inheritance.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\bin\Debug\net9.0\Day3_Inheritance.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\bin\Debug\net9.0\Day3_Inheritance.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\obj\Debug\net9.0\Day3_Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\obj\Debug\net9.0\Day3_Inheritance.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\obj\Debug\net9.0\Day3_Inheritance.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\obj\Debug\net9.0\Day3_Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\obj\Debug\net9.0\Day3_Inheritance.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\obj\Debug\net9.0\Day3_Inheritance.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\obj\Debug\net9.0\refint\Day3_Inheritance.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\obj\Debug\net9.0\Day3_Inheritance.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\obj\Debug\net9.0\Day3_Inheritance.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Inheritance\obj\Debug\net9.0\ref\Day3_Inheritance.dll

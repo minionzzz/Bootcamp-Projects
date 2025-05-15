@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\bin\Debug\net9.0\Day3_Classes.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\bin\Debug\net9.0\Day3_Classes.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\bin\Debug\net9.0\Day3_Classes.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\bin\Debug\net9.0\Day3_Classes.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\bin\Debug\net9.0\Day3_Classes.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\obj\Debug\net9.0\Day3_Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\obj\Debug\net9.0\Day3_Classes.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\obj\Debug\net9.0\Day3_Classes.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\obj\Debug\net9.0\Day3_Classes.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\obj\Debug\net9.0\Day3_Classes.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\obj\Debug\net9.0\Day3_Classes.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\obj\Debug\net9.0\refint\Day3_Classes.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\obj\Debug\net9.0\Day3_Classes.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\obj\Debug\net9.0\Day3_Classes.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day3_Classes\obj\Debug\net9.0\ref\Day3_Classes.dll
