@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\obj\Debug\net8.0\Day4_EnumFlags.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\obj\Debug\net8.0\Day4_EnumFlags.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\obj\Debug\net8.0\Day4_EnumFlags.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\obj\Debug\net8.0\Day4_EnumFlags.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\obj\Debug\net8.0\Day4_EnumFlags.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\bin\Debug\net8.0\Day4_EnumFlags.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\bin\Debug\net8.0\Day4_EnumFlags.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\bin\Debug\net8.0\Day4_EnumFlags.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\bin\Debug\net8.0\Day4_EnumFlags.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\bin\Debug\net8.0\Day4_EnumFlags.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\obj\Debug\net8.0\Day4_EnumFlags.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\obj\Debug\net8.0\refint\Day4_EnumFlags.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\obj\Debug\net8.0\Day4_EnumFlags.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\obj\Debug\net8.0\Day4_EnumFlags.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_EnumFlags\obj\Debug\net8.0\ref\Day4_EnumFlags.dll

@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\bin\Debug\net8.0\Day4_Enums.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\bin\Debug\net8.0\Day4_Enums.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\bin\Debug\net8.0\Day4_Enums.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\bin\Debug\net8.0\Day4_Enums.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\bin\Debug\net8.0\Day4_Enums.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\obj\Debug\net8.0\Day4_Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\obj\Debug\net8.0\Day4_Enums.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\obj\Debug\net8.0\Day4_Enums.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\obj\Debug\net8.0\Day4_Enums.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\obj\Debug\net8.0\Day4_Enums.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\obj\Debug\net8.0\Day4_Enums.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\obj\Debug\net8.0\refint\Day4_Enums.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\obj\Debug\net8.0\Day4_Enums.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\obj\Debug\net8.0\Day4_Enums.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day4_Enums\obj\Debug\net8.0\ref\Day4_Enums.dll
