@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\bin\Debug\net8.0\Day5_Delegates.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\bin\Debug\net8.0\Day5_Delegates.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\bin\Debug\net8.0\Day5_Delegates.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\bin\Debug\net8.0\Day5_Delegates.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\bin\Debug\net8.0\Day5_Delegates.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\obj\Debug\net8.0\Day5_Delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\obj\Debug\net8.0\Day5_Delegates.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\obj\Debug\net8.0\Day5_Delegates.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\obj\Debug\net8.0\Day5_Delegates.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\obj\Debug\net8.0\Day5_Delegates.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\obj\Debug\net8.0\Day5_Delegates.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\obj\Debug\net8.0\refint\Day5_Delegates.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\obj\Debug\net8.0\Day5_Delegates.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\obj\Debug\net8.0\Day5_Delegates.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Delegates\obj\Debug\net8.0\ref\Day5_Delegates.dll

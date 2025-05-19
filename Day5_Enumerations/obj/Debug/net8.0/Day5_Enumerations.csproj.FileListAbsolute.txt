@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\bin\Debug\net8.0\Day5_Enumerations.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\bin\Debug\net8.0\Day5_Enumerations.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\bin\Debug\net8.0\Day5_Enumerations.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\bin\Debug\net8.0\Day5_Enumerations.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\bin\Debug\net8.0\Day5_Enumerations.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\obj\Debug\net8.0\Day5_Enumerations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\obj\Debug\net8.0\Day5_Enumerations.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\obj\Debug\net8.0\Day5_Enumerations.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\obj\Debug\net8.0\Day5_Enumerations.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\obj\Debug\net8.0\Day5_Enumerations.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\obj\Debug\net8.0\Day5_Enumerations.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\obj\Debug\net8.0\refint\Day5_Enumerations.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\obj\Debug\net8.0\Day5_Enumerations.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\obj\Debug\net8.0\Day5_Enumerations.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day5_Enumerations\obj\Debug\net8.0\ref\Day5_Enumerations.dll
