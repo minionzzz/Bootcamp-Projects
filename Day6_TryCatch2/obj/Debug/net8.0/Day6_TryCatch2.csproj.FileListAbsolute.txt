@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\bin\Debug\net8.0\Day6_TryCatch2.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\bin\Debug\net8.0\Day6_TryCatch2.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\bin\Debug\net8.0\Day6_TryCatch2.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\bin\Debug\net8.0\Day6_TryCatch2.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\bin\Debug\net8.0\Day6_TryCatch2.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\obj\Debug\net8.0\Day6_TryCatch2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\obj\Debug\net8.0\Day6_TryCatch2.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\obj\Debug\net8.0\Day6_TryCatch2.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\obj\Debug\net8.0\Day6_TryCatch2.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\obj\Debug\net8.0\Day6_TryCatch2.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\obj\Debug\net8.0\Day6_TryCatch2.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\obj\Debug\net8.0\refint\Day6_TryCatch2.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\obj\Debug\net8.0\Day6_TryCatch2.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\obj\Debug\net8.0\Day6_TryCatch2.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day6_TryCatch2\obj\Debug\net8.0\ref\Day6_TryCatch2.dll
