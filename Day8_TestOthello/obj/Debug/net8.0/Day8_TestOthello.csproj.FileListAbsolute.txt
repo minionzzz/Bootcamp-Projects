@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\bin\Debug\net8.0\Day8_TestOthello.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\bin\Debug\net8.0\Day8_TestOthello.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\bin\Debug\net8.0\Day8_TestOthello.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\bin\Debug\net8.0\Day8_TestOthello.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\bin\Debug\net8.0\Day8_TestOthello.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\obj\Debug\net8.0\Day8_TestOthello.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\obj\Debug\net8.0\Day8_TestOthello.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\obj\Debug\net8.0\Day8_TestOthello.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\obj\Debug\net8.0\Day8_TestOthello.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\obj\Debug\net8.0\Day8_TestOthello.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\obj\Debug\net8.0\Day8_TestOthello.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\obj\Debug\net8.0\refint\Day8_TestOthello.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\obj\Debug\net8.0\Day8_TestOthello.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\obj\Debug\net8.0\Day8_TestOthello.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\Day8_TestOthello\obj\Debug\net8.0\ref\Day8_TestOthello.dll
