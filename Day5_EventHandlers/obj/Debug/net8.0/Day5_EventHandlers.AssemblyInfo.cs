@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Day5_EventHandlers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73b837be35980a6725a2f48149da4465ab2284da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a11c7c1727d93c2a4f825dd9dc44828b4b1b9709")]
 [assembly: System.Reflection.AssemblyProductAttribute("Day5_EventHandlers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Day5_EventHandlers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
