@@ -98,14 +98,9 @@ public class Display
 
             if (piece != null)
             {
-                if (piece.Type == PieceType.King)
-                {
-                    symbol = piece.Color == PieceColor.Red ? 'R' : 'B'; // Uppercase = King
-                }
-                else
-                {
-                    symbol = piece.Color == PieceColor.Red ? 'r' : 'b'; // Lowercase = Normal
-                }
+                symbol = piece.Type == PieceType.King
+                        ? (piece.Color == PieceColor.Red ? 'R' : 'B')
+                        : (piece.Color == PieceColor.Red ? 'r' : 'b');
             }
 
             Console.Write($"{symbol} ");
@@ -132,23 +127,21 @@ public class Display
 
 public class GameController
 {
-    private  IBoard _board;
+    private IBoard _board;
     private IPlayer _currentPlayer;
-    private  List<IPlayer> _players;
+    private List<IPlayer> _players;
     private Position _lastCapturePosition;
     public bool IsGameOver { get; private set; }
-    public bool HasPendingCapture { get; set;}  
-
 
     public Action<IPlayer> PlayerTurnChanged;
     public Action<IPlayer> GameEnded;
     public Action<Position> PiecePromoted;
 
-    public GameController(IPlayer player1, IPlayer player2, IBoard board)
+    public GameController(IPlayer p1, IPlayer p2, IBoard board)
     {
         _board = board;
-        _players = new List<IPlayer> { player1, player2 };
-        _currentPlayer = player1;
+        _players = new List<IPlayer> { p1, p2 };
+        _currentPlayer = p1;
     }
 
     public void StartGame()
@@ -165,49 +158,12 @@ public class GameController
             for (int col = (row + 1) % 2; col < size; col += 2)
             {
                 if (row < 3)
-                    _board.Grid[row, col] = new Piece(PieceColor.Black, PieceType.Normal);
+                    _board.Grid[row, col] = new Piece(PieceColor.Black);
                 else if (row >= size - 3)
-                    _board.Grid[row, col] = new Piece(PieceColor.Red, PieceType.Normal);
+                    _board.Grid[row, col] = new Piece(PieceColor.Red);
             }
         }
-         //kode debug untuk verifikasi
-        int redCount = 0, blackCount = 0;
-        foreach (var piece in _board.Grid)
-        {
-            if (piece != null)
-            {
-                if (piece.Color == PieceColor.Red) redCount++;
-                if (piece.Color == PieceColor.Black) blackCount++;
-            }
-        }
-        Console.WriteLine($"DEBUG: Red={redCount}, Black={blackCount}");
     }
-
-    public List<Position> GetCapturedPieces(Position from, Position to)
-    {
-        var captured = new List<Position>();
-
-        int dRow = to.Row - from.Row;
-        int dCol = to.Col - from.Col;
-
-        // Harus melompat dua kotak secara diagonal
-        if (Math.Abs(dRow) == 2 && Math.Abs(dCol) == 2)
-        {
-            int midRow = from.Row + dRow / 2;
-            int midCol = from.Col + dCol / 2;
-            var middlePos = new Position(midRow, midCol);
-            var middlePiece = GetPiece(middlePos);
-            var movingPiece = GetPiece(from);
-
-            if (middlePiece != null && middlePiece.Color != movingPiece.Color)
-            {
-                captured.Add(middlePos);
-            }
-        }
-
-        return captured;
-    }
-
 
     public bool MakeMove(Position from, Position to)
     {
@@ -219,80 +175,75 @@ public class GameController
         var captured = GetCapturedPieces(from, to);
         if (captured.Count == 0)
         {
-            // Tidak melakukan capture
-            if (HasPendingCapture) return false; // pemain wajib lanjut jump
             if (!IsValidMove(piece, from, to)) return false;
-
-            // Pindah biasa
-            SetPiece(to, piece);
-            RemovePiece(from);
-            CheckForPromotion(piece, to);
+            MovePiece(from, to, piece);
             EndTurn();
             return true;
         }
         else
         {
-            // Capture move
             foreach (var pos in captured)
-            {
                 RemovePiece(pos);
-            }
 
-            RemovePiece(from);
-            SetPiece(to, piece);
-            CheckForPromotion(piece, to);
+            MovePiece(from, to, piece);
 
             _lastCapturePosition = to;
-
-            // Cek apakah masih bisa capture dari posisi baru
             if (CanCaptureAgain(to))
             {
-                HasPendingCapture = true;
-                return true; // pemain harus lanjut
-            }
-            else
-            {
-                HasPendingCapture = false;
-                EndTurn();
                 return true;
             }
+
+            EndTurn();
+            return true;
         }
+    }
+
+    public void MovePiece(Position from, Position to, Piece piece)
+    {
+        RemovePiece(from);
+        SetPiece(to, piece);
+        CheckForPromotion(piece, to);
+    }
+
+    public List<Position> GetCapturedPieces(Position from, Position to)
+    {
+        var captured = new List<Position>();
+        int dRow = to.Row - from.Row, dCol = to.Col - from.Col;
+        if (Math.Abs(dRow) == 2 && Math.Abs(dCol) == 2)
+        {
+            int midRow = from.Row + dRow / 2;
+            int midCol = from.Col + dCol / 2;
+            var middlePiece = GetPiece(new Position(midRow, midCol));
+            var movingPiece = GetPiece(from);
+            if (middlePiece != null && movingPiece != null && middlePiece.Color != movingPiece.Color)
+                captured.Add(new Position(midRow, midCol));
+        }
+        return captured;
     }
 
     public bool CanCaptureAgain(Position pos)
     {
         var piece = GetPiece(pos);
         if (piece == null) return false;
-
-        int[] directions = { -1, 1 };
-        foreach (int dr in directions)
+        int[] dirs = { -1, 1 };
+        foreach (int dr in dirs)
         {
-            foreach (int dc in directions)
+            foreach (int dc in dirs)
             {
                 int midRow = pos.Row + dr;
                 int midCol = pos.Col + dc;
-                int destRow = pos.Row + 2 * dr;
-                int destCol = pos.Col + 2 * dc;
-
-                var mid = new Position(midRow, midCol);
-                var dest = new Position(destRow, destCol);
-
-                if (!IsValidPosition(mid) || !IsValidPosition(dest)) continue;
-
-                var middlePiece = GetPiece(mid);
-                var destinationPiece = GetPiece(dest);
-
-                if (middlePiece != null &&
-                    middlePiece.Color != piece.Color &&
-                    destinationPiece == null)
+                int endRow = pos.Row + 2 * dr;
+                int endCol = pos.Col + 2 * dc;
+                if (!IsValidPosition(new Position(midRow, midCol)) ||
+                    !IsValidPosition(new Position(endRow, endCol))) continue;
+                var midPiece = GetPiece(new Position(midRow, midCol));
+                var destPiece = GetPiece(new Position(endRow, endCol));
+                if (midPiece != null && midPiece.Color != piece.Color && destPiece == null)
                 {
-                    // valid jump
                     if (piece.Type == PieceType.King ||
                         (piece.Color == PieceColor.Red && dr == -1) ||
                         (piece.Color == PieceColor.Black && dr == 1))
-                    {
                         return true;
-                    }
                 }
             }
         }
@@ -301,87 +252,17 @@ public class GameController
 
     public void EndTurn()
     {
-        _currentPlayer = _players.First(p => p != _currentPlayer);
-        PlayerTurnChanged?.Invoke(_currentPlayer);
-        HasPendingCapture = false;
         CheckGameOver();
-    }
-
-    public bool HasMoreCaptures(Piece piece, Position pos)
-    {
-        int[] directions = { -1, 1 };
-        foreach (int dRow in directions)
+        if (!IsGameOver)
         {
-            foreach (int dCol in directions)
-            {
-                int newRow = pos.Row + dRow * 2;
-                int newCol = pos.Col + dCol * 2;
-                var newPos = new Position(newRow, newCol);
-                if (!IsValidPosition(newPos)) continue;
-
-                int midRow = pos.Row + dRow;
-                int midCol = pos.Col + dCol;
-                var midPiece = GetPiece(new Position(midRow, midCol));
-                if (GetPiece(newPos) == null &&
-                    midPiece != null && midPiece.Color != piece.Color)
-                {
-                    if (piece.Type == PieceType.King ||
-                    (piece.Color == PieceColor.Red && dRow == -1) ||
-                    (piece.Color == PieceColor.Black && dRow == 1))
-                    {
-                        return true;
-                    }
-                }
-            }
+            _currentPlayer = _players.First(p => p != _currentPlayer);
+            PlayerTurnChanged?.Invoke(_currentPlayer);
         }
-        return false;
-    }   
-
-    public void MakeCaptureMove(Position from, Position to, List<Position> captured)
-    {
-        if (!MakeMove(from, to)) return;
-
-        foreach (var cap in captured)
-            RemovePiece(cap);
-    }
-
-    public bool IsValidMove(Piece piece, Position from, Position to)
-    {
-        if (piece == null || piece.Color != _currentPlayer.Color) return false;
-        if (!IsValidPosition(to) || GetPiece(to) != null) return false;
-
-        int rowDiff = to.Row - from.Row;
-        int colDiff = to.Col - from.Col;
-        int absRow = Math.Abs(rowDiff);
-        int absCol = Math.Abs(colDiff);
-
-        // Normal move
-        if (absRow == 1 && absCol == 1)
-        {
-            if (piece.Type == PieceType.Normal)
-            {
-                int dir = piece.Color == PieceColor.Red ? -1 : 1;
-                return rowDiff == dir;
-            }
-            return true; // King can move both directions
-        }
-
-        // Capture move
-        if (absRow == 2 && absCol == 2)
-        {
-            int midRow = from.Row + rowDiff / 2;
-            int midCol = from.Col + colDiff / 2;
-            var middlePiece = GetPiece(new Position(midRow, midCol));
-            return middlePiece != null && middlePiece.Color != piece.Color;
-        }
-
-        return false;
     }
 
     public void CheckForPromotion(Piece piece, Position pos)
     {
         if (piece.Type == PieceType.King) return;
-
         if ((piece.Color == PieceColor.Red && pos.Row == 0) ||
             (piece.Color == PieceColor.Black && pos.Row == _board.Size - 1))
         {
@@ -393,48 +274,48 @@ public class GameController
     public void CheckGameOver()
     {
         bool hasRed = false, hasBlack = false;
-
-        foreach (var piece in _board.Grid)
+        foreach (var p in _board.Grid)
         {
-            if (piece == null) continue;
-            if (piece.Color == PieceColor.Red) hasRed = true;
-            if (piece.Color == PieceColor.Black) hasBlack = true;
-
-            if (hasRed && hasBlack) break; // cukup cek sampai keduanya ditemukan
+            if (p == null) continue;
+            if (p.Color == PieceColor.Red) hasRed = true;
+            if (p.Color == PieceColor.Black) hasBlack = true;
         }
-
         if (!hasRed || !hasBlack)
         {
             IsGameOver = true;
-            var winner = hasRed ? _players.First(p => p.Color == PieceColor.Red) : _players.First(p => p.Color == PieceColor.Black);
-            GameEnded?.Invoke(winner);
+            GameEnded?.Invoke(_currentPlayer);
         }
     }
 
+    public bool IsValidMove(Piece piece, Position from, Position to)
+    {
+        if (piece == null || !IsValidPosition(to) || GetPiece(to) != null) return false;
+        int dRow = to.Row - from.Row, dCol = to.Col - from.Col;
+        if (Math.Abs(dRow) == 1 && Math.Abs(dCol) == 1)
+        {
+            if (piece.Type == PieceType.King) return true;
+            return (piece.Color == PieceColor.Red && dRow == -1) ||
+                   (piece.Color == PieceColor.Black && dRow == 1);
+        }
+        if (Math.Abs(dRow) == 2 && Math.Abs(dCol) == 2)
+        {
+            int midRow = from.Row + dRow / 2;
+            int midCol = from.Col + dCol / 2;
+            var midPiece = GetPiece(new Position(midRow, midCol));
+            return midPiece != null && midPiece.Color != piece.Color;
+        }
+        return false;
+    }
 
     public IPlayer GetCurrentPlayer() => _currentPlayer;
-
-    public bool IsValidPosition(Position pos)
-    {
-        return pos.Row >= 0 && pos.Row < _board.Size && pos.Col >= 0 && pos.Col < _board.Size;
-    }
-
-    public Piece GetPiece(Position pos) => _board.Grid?[pos.Row, pos.Col];
-
+    public bool IsValidPosition(Position pos) => pos.Row >= 0 && pos.Row < _board.Size && pos.Col >= 0 && pos.Col < _board.Size;
+    public Piece? GetPiece(Position pos) => _board.Grid[pos.Row, pos.Col];
     public void SetPiece(Position pos, Piece piece) => _board.Grid[pos.Row, pos.Col] = piece;
-
     public void RemovePiece(Position pos) => _board.Grid[pos.Row, pos.Col] = null;
-
-    public IBoard GetBoard() => _board;
-
-    private void SwitchTurn()
-    {
-        _currentPlayer = _players.First(p => p != _currentPlayer);
-        PlayerTurnChanged?.Invoke(_currentPlayer);
-    }
 }
 
-class Program{
+class Program
+{
     static void Main(string[] args)
     {
         // Inisialisasi pemain dan papan
@@ -477,16 +358,9 @@ class Program{
 
                 if (!moveSucceeded)
                 {
-                    if (controller.HasPendingCapture)
-                    {
-                        Console.WriteLine("You must continue your jump! Try next capture move.");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Invalid move. Try again.");
-                    }
+                    Console.WriteLine("Invalid move. Try again.");
                 }
-            } while (!moveSucceeded && controller.HasPendingCapture);
+            } while (!moveSucceeded);
         }
         Console.ReadKey();
     }
@@ -496,9 +370,9 @@ class Program{
         {
             Console.Write($"{label} (row col): ");
             string input = Console.ReadLine();
-            var parts = input.Split();
+            var parts = input?.Split();
 
-            if (parts.Length == 2 &&
+            if (parts?.Length == 2 &&
                 int.TryParse(parts[0], out int row) &&
                 int.TryParse(parts[1], out int col))
             {
@@ -506,9 +380,6 @@ class Program{
             }
 
             Console.WriteLine("Invalid input. Please enter two numbers separated by space.");
-            }
         }
     }
-    
-
-    
+}
