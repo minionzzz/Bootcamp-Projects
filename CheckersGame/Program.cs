@@ -131,7 +131,7 @@ public class GameController
     private IPlayer _currentPlayer;
     private List<IPlayer> _players;
     private Position _lastCapturePosition;
-    public bool IsGameOver { get; private set; }
+    public bool IsGameOver { get; set; }
 
     public Action<IPlayer> PlayerTurnChanged;
     public Action<IPlayer> GameEnded;
@@ -142,6 +142,7 @@ public class GameController
         _board = board;
         _players = new List<IPlayer> { p1, p2 };
         _currentPlayer = p1;
+        _lastCapturePosition = new Position(-1, -1); //Inisialisasi invalid position
     }
 
     public void StartGame()
@@ -177,25 +178,41 @@ public class GameController
         {
             if (!IsValidMove(piece, from, to)) return false;
             MovePiece(from, to, piece);
+            _lastCapturePosition = new Position(-1, -1);
             EndTurn();
             return true;
         }
         else
         {
-            foreach (var pos in captured)
-                RemovePiece(pos);
+            if (!IsValidMove(piece, from, to)) return false;
 
-            MovePiece(from, to, piece);
+            MakeCaptureMove(from, to, captured);
 
-            _lastCapturePosition = to;
             if (CanCaptureAgain(to))
             {
                 return true;
             }
-
-            EndTurn();
-            return true;
+            else
+            {
+                _lastCapturePosition = new Position(-1, -1);
+                EndTurn();
+                return true;
+            }
         }
+    }
+
+    public void MakeCaptureMove(Position from, Position to, List<Position> captured)
+    {
+        foreach (var pos in captured)
+        {
+            RemovePiece(pos);
+        }
+        var piece = GetPiece(from);
+
+        MovePiece(from, to, piece);
+
+        _lastCapturePosition = to;
+
     }
 
     public void MovePiece(Position from, Position to, Piece piece)
@@ -312,6 +329,7 @@ public class GameController
     public Piece? GetPiece(Position pos) => _board.Grid[pos.Row, pos.Col];
     public void SetPiece(Position pos, Piece piece) => _board.Grid[pos.Row, pos.Col] = piece;
     public void RemovePiece(Position pos) => _board.Grid[pos.Row, pos.Col] = null;
+    public IBoard GetBoard() => _board;
 }
 
 class Program
