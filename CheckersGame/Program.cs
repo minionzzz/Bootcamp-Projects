@@ -73,40 +73,41 @@ public class Board : IBoard
 
 public class Display
 {
-    private IBoard _board;
-    public Display(IBoard board)
+    private GameController _controller;
+    public Display(GameController controller)
     {
-        _board = board;
+        _controller = controller;
     }
 
     public void DrawBoard()
     {
-    Console.Write("   ");
-    for (int col = 0; col < _board.Size; col++)
-    {
-        Console.Write($"{col} ");
-    }
-    Console.WriteLine();
-
-    for (int row = 0; row < _board.Size; row++)
-    {
-        Console.Write($"{row}  ");
-        for (int col = 0; col < _board.Size; col++)
+        var board = _controller.GetBoard();
+        Console.Write("   ");
+        for (int col = 0; col < board.Size; col++)
         {
-            var piece = _board.Grid[row, col];
-            char symbol = '.';
-
-            if (piece != null)
-            {
-                symbol = piece.Type == PieceType.King
-                        ? (piece.Color == PieceColor.Red ? 'R' : 'B')
-                        : (piece.Color == PieceColor.Red ? 'r' : 'b');
-            }
-
-            Console.Write($"{symbol} ");
+            Console.Write($"{col} ");
         }
         Console.WriteLine();
-    }
+
+        for (int row = 0; row < board.Size; row++)
+        {
+            Console.Write($"{row}  ");
+            for (int col = 0; col < board.Size; col++)
+            {
+                var piece = board.Grid[row, col];
+                char symbol = '.';
+
+                if (piece != null)
+                {
+                    symbol = piece.Type == PieceType.King
+                            ? (piece.Color == PieceColor.Red ? 'R' : 'B')
+                            : (piece.Color == PieceColor.Red ? 'r' : 'b');
+                }
+
+                Console.Write($"{symbol} ");
+            }
+            Console.WriteLine();
+        }
 }
 
     public void ShowPlayerTurn(IPlayer player)
@@ -337,11 +338,11 @@ class Program
     static void Main(string[] args)
     {
         // Inisialisasi pemain dan papan
-        IPlayer player1 = new Player("Alice", PieceColor.Red);
-        IPlayer player2 = new Player("Bob", PieceColor.Black);
+        IPlayer player1 = new Player("ADIT", PieceColor.Red);
+        IPlayer player2 = new Player("DENIS", PieceColor.Black);
         IBoard board = new Board(8);
         var controller = new GameController(player1, player2, board);
-        var display = new Display(board);
+        var display = new Display(controller);
 
         //Event handler
         controller.PlayerTurnChanged += display.ShowPlayerTurn;
