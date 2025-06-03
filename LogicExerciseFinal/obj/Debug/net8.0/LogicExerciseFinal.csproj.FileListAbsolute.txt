@@ -1,0 +1,15 @@
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\bin\Debug\net8.0\LogicExerciseFinal.exe
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\bin\Debug\net8.0\LogicExerciseFinal.deps.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\bin\Debug\net8.0\LogicExerciseFinal.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\bin\Debug\net8.0\LogicExerciseFinal.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\bin\Debug\net8.0\LogicExerciseFinal.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\obj\Debug\net8.0\LogicExerciseFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\obj\Debug\net8.0\LogicExerciseFinal.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\obj\Debug\net8.0\LogicExerciseFinal.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\obj\Debug\net8.0\LogicExerciseFinal.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\obj\Debug\net8.0\LogicExerciseFinal.sourcelink.json
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\obj\Debug\net8.0\LogicExerciseFinal.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\obj\Debug\net8.0\refint\LogicExerciseFinal.dll
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\obj\Debug\net8.0\LogicExerciseFinal.pdb
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\obj\Debug\net8.0\LogicExerciseFinal.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\Bootcamp Projects\LogicExerciseFinal\obj\Debug\net8.0\ref\LogicExerciseFinal.dll

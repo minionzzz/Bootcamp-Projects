@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckersGame", "CheckersGam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicExercise3", "LogicExercise3\LogicExercise3.csproj", "{E59D4CFF-666C-417D-A3FC-EC82D370577E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicExerciseFinal", "LogicExerciseFinal\LogicExerciseFinal.csproj", "{C043B152-698A-401A-B484-9BC7DB73D278}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,18 @@ Global
 		{E59D4CFF-666C-417D-A3FC-EC82D370577E}.Release|x64.Build.0 = Release|Any CPU
 		{E59D4CFF-666C-417D-A3FC-EC82D370577E}.Release|x86.ActiveCfg = Release|Any CPU
 		{E59D4CFF-666C-417D-A3FC-EC82D370577E}.Release|x86.Build.0 = Release|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Debug|x64.Build.0 = Debug|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Debug|x86.Build.0 = Debug|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Release|x64.ActiveCfg = Release|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Release|x64.Build.0 = Release|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Release|x86.ActiveCfg = Release|Any CPU
+		{C043B152-698A-401A-B484-9BC7DB73D278}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
