@@ -130,7 +130,7 @@ public class GameController
 {
     private IBoard _board;
     private IPlayer _currentPlayer;
-    private List<IPlayer> _players;
+    private List<IPlayer> _players ;
     private Position _lastCapturePosition;
     public bool IsGameOver { get; set; }
 
