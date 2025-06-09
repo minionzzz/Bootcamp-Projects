@@ -13,3 +13,17 @@ C:\Users\Alvin #13\Downloads\Bootcamp Projects\CheckersGame\obj\Debug\net8.0\ref
 C:\Users\Alvin #13\Downloads\Bootcamp Projects\CheckersGame\obj\Debug\net8.0\CheckersGame.pdb
 C:\Users\Alvin #13\Downloads\Bootcamp Projects\CheckersGame\obj\Debug\net8.0\CheckersGame.genruntimeconfig.cache
 C:\Users\Alvin #13\Downloads\Bootcamp Projects\CheckersGame\obj\Debug\net8.0\ref\CheckersGame.dll
+C:\Users\Alvin #13\Downloads\CheckersGame\bin\Debug\net8.0\CheckersGame.exe
+C:\Users\Alvin #13\Downloads\CheckersGame\bin\Debug\net8.0\CheckersGame.deps.json
+C:\Users\Alvin #13\Downloads\CheckersGame\bin\Debug\net8.0\CheckersGame.runtimeconfig.json
+C:\Users\Alvin #13\Downloads\CheckersGame\bin\Debug\net8.0\CheckersGame.dll
+C:\Users\Alvin #13\Downloads\CheckersGame\bin\Debug\net8.0\CheckersGame.pdb
+C:\Users\Alvin #13\Downloads\CheckersGame\obj\Debug\net8.0\CheckersGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvin #13\Downloads\CheckersGame\obj\Debug\net8.0\CheckersGame.AssemblyInfoInputs.cache
+C:\Users\Alvin #13\Downloads\CheckersGame\obj\Debug\net8.0\CheckersGame.AssemblyInfo.cs
+C:\Users\Alvin #13\Downloads\CheckersGame\obj\Debug\net8.0\CheckersGame.csproj.CoreCompileInputs.cache
+C:\Users\Alvin #13\Downloads\CheckersGame\obj\Debug\net8.0\CheckersGame.dll
+C:\Users\Alvin #13\Downloads\CheckersGame\obj\Debug\net8.0\refint\CheckersGame.dll
+C:\Users\Alvin #13\Downloads\CheckersGame\obj\Debug\net8.0\CheckersGame.pdb
+C:\Users\Alvin #13\Downloads\CheckersGame\obj\Debug\net8.0\CheckersGame.genruntimeconfig.cache
+C:\Users\Alvin #13\Downloads\CheckersGame\obj\Debug\net8.0\ref\CheckersGame.dll
