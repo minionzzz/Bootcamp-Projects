@@ -12,7 +12,7 @@
     <table class="table">
         <thead>
              <tr>
-                <th>ID</th>
+                @* <th>ID</th> *@
                 <th>Value $</th>
                 <th>Description</th>
                 <th>Date</th>
@@ -24,7 +24,7 @@
                 foreach (var expense in Model)
                 {
                     <tr>
-                        <td>@expense.Id</td>
+                        @* <td>@expense.Id</td> *@
                         <td>@expense.Amount.ToString("F2")</td>
                         <td>@expense.Description</td>
                         <td>@expense.Date.ToString("dd/MM/yyyy")</td>
