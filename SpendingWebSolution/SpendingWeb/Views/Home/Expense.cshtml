@@ -1,0 +1,67 @@
+@{
+    ViewData["Title"] = "Expenses Page";
+}
+
+@model List<Expense>
+
+<div class="text-center">
+    <h1 class="display-4">Your Expenses</h1>
+    <br>
+    <hr>
+    <h3>Total Expenses @ViewBag.Expense</h3>
+    @if (ViewBag.ShowReminder == true)
+    {
+        <div class="alert alert-warning text-center">
+            <strong>Warning!</strong> Your Expenses for this month (@ViewBag.MonthlyExpense.ToString("N2")) are reached the limit (@ViewBag.MonthlyLimit.ToString("n2")).
+        </div>
+    }
+    <table class="table">
+        <thead>
+             <tr>
+                @* <th>ID</th> *@
+                <th>Value $</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Category</th>
+                <th>Actions</th>
+                <th>Attachment</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var expense in Model)
+                {
+                    <tr>
+                        @* <td>@expense.Id</td> *@
+                        <td>@expense.Amount.ToString("F2")</td>
+                        <td>@expense.Description</td>
+                        <td>@expense.Date.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            @if (expense.Category != null)
+                            {
+                                @expense.Category.Name
+                            }
+                            else
+                            {
+                                <span class="text-muted">No Category</span>
+                            } 
+                        <td>
+                            <a class="btn btn-primary" asp-action="CreateEditExpense" asp-route-id="@expense.Id">Edit</a>
+                            <a class="btn btn-danger" asp-action="DeleteExpense" asp-route-id="@expense.Id">Delete</a>
+                        </td>
+                        <td>@if (!string.IsNullOrEmpty(expense.AttachmentPath))
+                        {
+                            <a href="@expense.AttachmentPath" target="_blank">Evidence</a>
+                        }
+                        else
+                        {
+                            <span class="text-muted">-</span>
+                        }</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    <a class="btn btn-primary mb-3" asp-action="CreateEditExpense">Add Expenses</a>
+    <a class="btn btn-secondary mb-3" asp-action="Index">Back</a>
+</div>

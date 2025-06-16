@@ -1,0 +1,12 @@
+@model SpendingWeb.Models.Category
+
+<h2>Delete Category</h2>
+<h4>Are u sure want to Delete this Category?</h4>
+<div>
+    <strong>@Model.Name</strong>
+</div>
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0">
+                <div class="card-body text-center">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="80" class="mb-3" alt="Spending Icon" />
+                    <h1 class="display-5 mb-2">SpendingWeb</h1>
+                    <p class="lead mb-4 text-muted">
+                        Manage your daily finances easily, monitor expenses, and achieve your financial goals!
+                    </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4">
+                        <a class="btn btn-success btn-lg me-2" asp-controller="Home" asp-action="Expense">
+                            <i class="bi bi-wallet2"></i> View Expenses
+                        </a>
+                        <a class="btn btn-primary btn-lg me-2" asp-controller="Home" asp-action="CreateEditExpense">
+                            <i class="bi bi-plus-circle"></i> Add Expense
+                        </a>
+                        <a class="btn btn-secondary btn-lg" asp-controller="Categories" asp-action="Index">
+                            <i class="bi bi-tags"></i> Add Categories
+                        </a>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-bar-chart-line"></i> Report </h5>
+                                    <p class="card-text text-muted">View your monthly spending summaries and graphs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-bell"></i> Reminder</h5>
+                                    <p class="card-text text-muted">Set a reminder if your expenses out of Budget</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 bg-light mb-2">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-cloud-arrow-down"></i> Export Data</h5>
+                                    <p class="card-text text-muted">Download data to format Excel/CSV.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">© 2025 SpendingWeb. All rights reserved.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap Icons CDN (tambahkan di _Layout.cshtml jika belum ada) -->
+@* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> *@
