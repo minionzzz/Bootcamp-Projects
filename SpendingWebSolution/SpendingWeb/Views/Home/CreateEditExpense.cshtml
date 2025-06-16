@@ -13,22 +13,22 @@
     @* <label>ID</label> *@
     <input hidden class="form-control" type="number" placeholder="0" asp-for="Id" /> 
 
-    <label class="mt-4">Category</label>
+    <label class="mt-3">Category</label>
     <select class="form-control" asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
         <option value="">-- Select Category --</option>
     </select>
     
-    <label class="mt-4">Value $</label>
+    <label class="mt-3">Value $</label>
     <input class="form-control" type="number" placeholder="0" asp-for="Amount" step="0.01"/> 
     
-    <label class="mt-4">Description</label>
+    <label class="mt-3">Description</label>
     <input class="form-control" type="text" placeholder="Add Description Product Here!" asp-for="Description" />
     
-    <label class="mt-4">Date</label>
+    <label class="mt-3">Date</label>
     <input class="form-control" type="date" placeholder="dd/mm/yyyy" asp-for="Date" /> 
 
-    <label class="mt-4">Attachment (Bukti Transaksi)</label>
-    <input type="file" class="form-control" name="Attachment" />
+    <label class="mt-3">Attachment (Bukti Transaksi)</label>
+    @* <input type="file" class="form-control" name="Attachment" /> *@
 
     @if (!string.IsNullOrEmpty(Model.AttachmentPath))
     {

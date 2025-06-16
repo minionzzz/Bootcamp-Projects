@@ -48,6 +48,21 @@ public class HomeController : Controller
         return View(allExpenses);
     }
 
+    public IActionResult CreateEditExpense(int? id)
+    {
+        var expense = new Expense();
+        if (id.HasValue)
+        {
+            expense = _context.Expenses.Include(e => e.Category).SingleOrDefault(e => e.Id == id.Value);
+            if (expense == null)
+            {
+                return NotFound();
+            }
+        }
+        ViewBag.Categories = _context.Categories.ToList();
+        return View(expense);
+    }
+    
     [HttpPost]
     [ValidateAntiForgeryToken]
     public IActionResult CreateEditExpense(Expense expense, IFormFile? Attachment, string? ExistingAttachmentPath)

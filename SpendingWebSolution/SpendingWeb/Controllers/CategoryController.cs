@@ -88,7 +88,7 @@ public class CategoriesController : Controller
     // POST: Categories/Delete/5
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
-    public IActionResult DeleteConfirmed(int? id)
+    public IActionResult DeleteConfirmed(int id)
     {
         var category = _context.Categories.Find(id);
         if (category == null)

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alvin #13\\Documents\\Bootcamp-Projects\\SpendingWebSolution\\SpendingWeb\\SpendingWeb.csproj": {}
+    "D:\\Bootcamp-Projects\\SpendingWebSolution\\SpendingWeb\\SpendingWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alvin #13\\Documents\\Bootcamp-Projects\\SpendingWebSolution\\SpendingWeb\\SpendingWeb.csproj": {
+    "D:\\Bootcamp-Projects\\SpendingWebSolution\\SpendingWeb\\SpendingWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alvin #13\\Documents\\Bootcamp-Projects\\SpendingWebSolution\\SpendingWeb\\SpendingWeb.csproj",
+        "projectUniqueName": "D:\\Bootcamp-Projects\\SpendingWebSolution\\SpendingWeb\\SpendingWeb.csproj",
         "projectName": "SpendingWeb",
-        "projectPath": "C:\\Users\\Alvin #13\\Documents\\Bootcamp-Projects\\SpendingWebSolution\\SpendingWeb\\SpendingWeb.csproj",
-        "packagesPath": "C:\\Users\\Alvin #13\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alvin #13\\Documents\\Bootcamp-Projects\\SpendingWebSolution\\SpendingWeb\\obj\\",
+        "projectPath": "D:\\Bootcamp-Projects\\SpendingWebSolution\\SpendingWeb\\SpendingWeb.csproj",
+        "packagesPath": "C:\\Users\\my-computer\\.nuget\\packages\\",
+        "outputPath": "D:\\Bootcamp-Projects\\SpendingWebSolution\\SpendingWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alvin #13\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\my-computer\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -95,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
