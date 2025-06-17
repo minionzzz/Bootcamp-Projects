@@ -12,7 +12,7 @@
     @if (ViewBag.ShowReminder == true)
     {
         <div class="alert alert-warning text-center">
-            <strong>Warning!</strong> Your Expenses for this month (@ViewBag.MonthlyExpense.ToString("N2")) are reached the limit (@ViewBag.MonthlyLimit.ToString("n2")).
+            <strong>Warning!</strong> Your Expenses for this month (@ViewBag.MonthlyExpense.ToString("F2")) are reached the limit (@ViewBag.MonthlyLimit.ToString("F2")).
         </div>
     }
     <table class="table">

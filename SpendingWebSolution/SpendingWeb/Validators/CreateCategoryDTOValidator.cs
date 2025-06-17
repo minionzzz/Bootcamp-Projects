@@ -6,7 +6,7 @@ public class CreateCategoryDTOValidator : AbstractValidator<CreateCategoryDTO>
     public CreateCategoryDTOValidator()
     {
         RuleFor(x => x.Name)
-            .NotEmpty().WithMessage("Nama kategori wajib diisi")
-            .MaximumLength(20).WithMessage("Nama kategori maksimal 20 karakter");
+            .NotEmpty().WithMessage("Category name is required")
+            .MaximumLength(20).WithMessage("Category name must not exceed 20 characters");
     }
 }

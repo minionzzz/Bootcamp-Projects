@@ -39,6 +39,7 @@ public class CategoriesController : Controller
     }
 
     // GET: Categories/Edit/5
+    [HttpGet]
     public IActionResult Edit(int? id)
     {
         if (id == null) return NotFound();
@@ -77,6 +78,7 @@ public class CategoriesController : Controller
     }
 
     // GET: Categories/Delete/5
+    [HttpGet]
     public IActionResult Delete(int? id)
     {
         if (id == null) return NotFound();
@@ -99,7 +101,7 @@ public class CategoriesController : Controller
         var relatedExpenses = _context.Expenses.Where(e => e.CategoryId == id).ToList();
         foreach (var exp in relatedExpenses)
         {
-            exp.CategoryId = null; // atau exp.CategoryId = idUnknown jika pakai kategori "Unknown"
+            exp.CategoryId = null; 
         }
 
         _context.Categories.Remove(category);
